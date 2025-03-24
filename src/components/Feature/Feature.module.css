@@ -1,0 +1,18 @@
+.feature {
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: var(--Badges, #f2f4f7);
+  mix-blend-mode: multiply;
+}
+
+.featureIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.featureDescription {
+  font-weight: 500;
+}

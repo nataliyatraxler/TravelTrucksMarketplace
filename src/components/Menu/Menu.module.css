@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--Main);
+  transition: color 0.3s;
+}
+
+.active {
+  color: var(--Button-Hover);
+}

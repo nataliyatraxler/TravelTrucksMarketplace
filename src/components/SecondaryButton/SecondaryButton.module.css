@@ -1,0 +1,13 @@
+.button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  border: 1px solid var(--Gray-light, #dadde1);
+}
+
+.button:hover {
+  border: 1px solid var(--Button-Hover, #d84343);
+}

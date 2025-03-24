@@ -1,0 +1,19 @@
+.detailsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.value {
+  font-weight: 400;
+}

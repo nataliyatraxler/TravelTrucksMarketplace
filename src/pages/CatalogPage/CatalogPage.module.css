@@ -1,0 +1,23 @@
+.container {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notAvailableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 888px;
+}
+
+.notAvailable {
+  color: var(--Text);
+}

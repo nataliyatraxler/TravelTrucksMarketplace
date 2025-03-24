@@ -1,0 +1,49 @@
+.topBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: var(--Badges, #f2f4f7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageLetter {
+  color: var(--Button, #e44848);
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.reviewContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reviewerName {
+  font-weight: 500;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
+}
+
+.starFilled {
+  color: var(--Rating);
+}
+
+.starEmpty {
+  color: var(--Badges);
+}
+
+.comment {
+  color: var(--Text, #475467);
+}

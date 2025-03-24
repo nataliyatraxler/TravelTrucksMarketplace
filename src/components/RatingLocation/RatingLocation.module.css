@@ -1,0 +1,46 @@
+.ratingLocation {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.ratingDetails,
+.locationDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.rating {
+  position: relative;
+  display: inline-block;
+}
+
+.rating::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.ratingIcon {
+  width: 16px;
+  height: 16px;
+  fill: var(--Badges);
+}
+
+.ratingIcon.active {
+  fill: var(--Rating);
+}
+
+.locationIcon {
+  width: 20px;
+  height: 20px;
+  fill: var(--Main);
+}

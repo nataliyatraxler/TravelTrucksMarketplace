@@ -1,0 +1,31 @@
+.filterButton {
+  width: 112px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  border: 1px solid var(--Gray-light);
+  mix-blend-mode: multiply;
+  cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.active {
+  border: 1px solid var(--Button-Hover);
+}
+
+.hiddenInput:checked + .filterButton {
+  border: 1px solid var(--Button-Hover);
+}

@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid var (--Badges);
+  background: var(--Inputs);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px 64px;
+  max-width: 1440px;
+  margin: 0 auto;
+}

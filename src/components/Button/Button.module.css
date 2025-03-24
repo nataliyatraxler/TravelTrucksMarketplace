@@ -1,0 +1,18 @@
+.button {
+  color: var(--White);
+  display: flex;
+  padding: 16px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  background: var(--Button);
+  color: var(--White, #fff);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.08px;
+}
+
+.button:hover {
+  background-color: var(--Button-Hover);
+}

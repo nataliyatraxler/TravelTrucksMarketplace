@@ -1,0 +1,75 @@
+.card {
+  display: flex;
+  padding: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-light, #dadde1);
+  background: var(--White, #fff);
+  width: 888px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.image {
+  border-radius: 10px;
+  width: 292px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--Main, #101828);
+  margin-bottom: 8px;
+}
+
+.titleDetails {
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.favoriteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.favoriteIcon {
+  width: 24px;
+  height: 24px;
+  fill: var(--Main);
+}
+
+.favoriteButton.favorite .favoriteIcon {
+  fill: var(--Button);
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.description {
+  overflow: hidden;
+  color: var(--Text, #475467);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 24px;
+  max-width: 524px;
+}
+
+.showMoreBtn {
+  margin-top: 24px;
+}

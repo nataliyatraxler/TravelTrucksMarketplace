@@ -1,0 +1,55 @@
+:root {
+  /* colors */
+  --Main: #101828;
+  --Text: #475467;
+  --Gray: #6c717b;
+  --Button: #e44848;
+  --Button-Hover: #d84343;
+  --Rating: #ffc531;
+  --Gray-light: #dadde1;
+  --Badges: #f2f4f7;
+  --Inputs: #f7f7f7;
+  --White: #ffffff;
+}
+
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--Main);
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: none;
+  font-family: Inter;
+}
